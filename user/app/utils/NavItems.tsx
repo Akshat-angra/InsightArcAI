@@ -23,8 +23,8 @@ export const navItemsData = [
     url: "/policy",
   },
   {
-    name: "FAQ",
-    url: "/faq",
+    name: "Chat",
+    url: "/chatwithBuddy@insightarcai",
   },
 ];
 

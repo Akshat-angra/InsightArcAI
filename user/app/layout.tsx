@@ -12,6 +12,7 @@ import "./globals.css";
 import { ThemeProvider } from "./utils/theme-provider";
 import { Toaster } from "react-hot-toast";
 import { Providers } from "./Provider";
+import { ClerkProvider } from "@clerk/nextjs";
 
 const playfair = Playfair({
   subsets: ["latin"],
@@ -49,17 +50,19 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en">
-      <body
-        className={`${playfair.variable} ${roboto.variable} ${poppins.variable} ${lobster.variable} ${montserrat.variable} font-DancingScript !bg-white bg-no-repeat dark:bg-gradient-to-b dark:from-gray-900 dark:to-black duration-300`}
-      >
-        <Providers>
-          <ThemeProvider attribute="class" defaultTheme="system" enableSystem>
-            {children}
-            <Toaster position="top-center" reverseOrder={false} />
-          </ThemeProvider>
-        </Providers>
-      </body>
-    </html>
+    <ClerkProvider>
+      <html lang="en">
+        <body
+          className={`${playfair.variable} ${roboto.variable} ${poppins.variable} ${lobster.variable} ${montserrat.variable} font-DancingScript !bg-white bg-no-repeat dark:bg-gradient-to-b dark:from-gray-900 dark:to-black duration-300`}
+        >
+          <Providers>
+            <ThemeProvider attribute="class" defaultTheme="system" enableSystem>
+              {children}
+              <Toaster position="top-center" reverseOrder={false} />
+            </ThemeProvider>
+          </Providers>
+        </body>
+      </html>
+    </ClerkProvider>
   );
 }

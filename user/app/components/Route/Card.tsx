@@ -73,20 +73,20 @@ const CourseSection = () => {
                 <img src="./coding_boy.svg" alt="Member 1" />
               </div>
               <h3 className="text-xl font-semibold mt-4">Akshat Angra</h3>
-              <p className="text-sm text-gray-400">CEO & Co-founder</p>
+              <p className="text-sm text-gray-400">Founder</p>
             </div>
             <div className="member flex flex-col items-center">
               <div className="member-avatar w-32 h-32 rounded-full overflow-hidden">
                 <img src="./coding_boy.svg" alt="Member 2" />
               </div>
-              <h3 className="text-xl font-semibold mt-4">Abhijeet Angra</h3>
+              <h3 className="text-xl font-semibold mt-4">Abhijeet Bhardwaj</h3>
               <p className="text-sm text-gray-400">CTO</p>
             </div>
             <div className="member flex flex-col items-center">
               <div className="member-avatar w-32 h-32 rounded-full overflow-hidden">
                 <img src="./coding_boy.svg" alt="Member 3" />
               </div>
-              <h3 className="text-xl font-semibold mt-4">Anirudh Sharma</h3>
+              <h3 className="text-xl font-semibold mt-4">Anirudh Tanwar</h3>
               <p className="text-sm text-gray-400">Lead Developer</p>
             </div>
             <div className="member flex flex-col items-center">
@@ -170,13 +170,13 @@ const CourseSection = () => {
                 >
                   Home
                 </a>
-                <a href="/" className="block mb-2 dark:text-white text-black hover:underline">
+                <a href="/courses" className="block mb-2 dark:text-white text-black hover:underline">
                   Courses
                 </a>
-                <a href="/" className="block mb-2 dark:text-white text-black hover:underline">
+                <a href="/about" className="block mb-2 dark:text-white text-black hover:underline">
                   About
                 </a>
-                <a href="/" className="block mb-2 dark:text-white text-black hover:underline">
+                <a href="/courses" className="block mb-2 dark:text-white text-black hover:underline">
                   Labs
                 </a>
               </div>
@@ -187,16 +187,16 @@ const CourseSection = () => {
                 Legal
               </h2>
               <div className="links">
-                <a href="/" className="block mb-2 dark:text-white text-black hover:underline">
+                <a href="/policy" className="block mb-2 dark:text-white text-black hover:underline">
                   Privacy Policy
                 </a>
-                <a href="/" className="block mb-2 dark:text-white text-black hover:underline">
+                <a href="/policy" className="block mb-2 dark:text-white text-black hover:underline">
                   Terms of use
                 </a>
-                <a href="/" className="block mb-2 dark:text-white text-black hover:underline">
+                <a href="/policy" className="block mb-2 dark:text-white text-black hover:underline">
                   Refund & Cancellation Policy
                 </a>
-                <a href="/" className="block mb-2 dark:text-white text-black hover:underline">
+                <a href="/faq" className="block mb-2 dark:text-white text-black hover:underline">
                   Careers
                 </a>
               </div>

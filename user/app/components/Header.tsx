@@ -9,6 +9,7 @@ import Login from "../components/Auth/Login";
 import SignUp from "./Auth/SignUp";
 import Verification from "../components/Auth/Verification";
 import { useSelector } from "react-redux";
+import { UserButton } from "@clerk/nextjs";
 type Props = {
   open: boolean;
   setOpen: (open: boolean) => void;
@@ -101,11 +102,12 @@ const Header: FC<Props> = ({ activeItem, setOpen, route, open, setRoute }) => {
                   onClick={() => setOpenSidebar(true)}
                 />
               </div>
-              <HiOutlineUserCircle
+              {/* <HiOutlineUserCircle
                 size={25}
                 className="hidden 800px:block cursor-pointer dark:text-white text-black"
                 onClick={() => setOpen(true)}
-              />
+              /> */}
+              <UserButton />
             </div>
           </div>
         </div>

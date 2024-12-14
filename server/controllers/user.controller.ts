@@ -257,6 +257,7 @@ export const updateAccessToken = CatchAsyncError(
   }
 );
 
+
 // get user information
 
 export const getUserInfo = CatchAsyncError(

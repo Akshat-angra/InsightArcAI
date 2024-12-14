@@ -673,3 +673,67 @@ p {
   background-color: #142b6f;
   color: #ffffff;
 }
+
+/* styles/QuizComponent.module.css */
+.quizComponent {
+  padding: 20px;
+  max-width: 600px;
+  margin: auto;
+}
+
+/* MCQ Section Styles */
+.mcqSection {
+  margin-bottom: 40px;
+}
+
+.question {
+  margin-bottom: 20px;
+}
+
+.options label {
+  display: block;
+  margin: 5px 0;
+}
+
+.result {
+  margin-top: 20px;
+}
+
+/* Flashcard Section Styles */
+.flashcardSection {
+  margin-bottom: 20px;
+}
+
+.flashcard {
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  overflow: hidden;
+  cursor: pointer;
+  margin-bottom: 20px;
+}
+
+.flashcardContent {
+  padding: 20px;
+  transition: background-color 0.3s ease;
+}
+
+.flashcardContent.showAnswer {
+  background-color: #f9f9f9;
+}
+
+.nextButton {
+  padding: 10px 20px;
+  font-size: 16px;
+  color: #fff;
+  background-color: #0070f3;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.timer {
+  margin-bottom: 20px;
+  font-size: 18px;
+  font-weight: bold;
+  color: #ff0000;
+}

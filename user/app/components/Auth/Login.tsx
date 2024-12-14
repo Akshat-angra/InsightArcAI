@@ -36,7 +36,7 @@ const Login: FC<Props> = ({ setRoute, setOpen }) => {
 
   useEffect(() => {
     if (isSuccess) {
-      toast.success("login successfully saved");
+      toast.success("login successful");
       setOpen(false);
     }
     if (error) {

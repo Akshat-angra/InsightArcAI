@@ -92,14 +92,14 @@ const HeroSection = () => {
             Access thousands of courses tailored to your needs.
           </p>
           <div className="flex flex-col md:flex-row items-center space-y-4 md:space-y-0 md:space-x-4 ml-8">
-            <Link href="/signup">
+            <Link href="/courses">
               <motion.button
                 whileHover={{ scale: 1.05 }}
                 whileTap={{ scale: 0.95 }}
                 className={`${buttonStyles} border-black hover:text-white hover:bg-black dark:hover:bg-white dark:hover:text-black`}
                 aria-label="Sign Up for Free"
               >
-                Sign Up for Free
+                Explore Us
               </motion.button>
             </Link>
             <Link href="/about">
@@ -272,9 +272,12 @@ const HeroSection = () => {
             Experience
           </h2>
           <p className="max-w-[470px] text-lg mt-5 text-slate-400 leading-8">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem illo,
-            dolores laudantium, omnis numquam consectetur ea maiores laboriosam
-            esse eum dolore error fugiat fugit cum!
+            We leverage AI to provide cutting-edge solutions for your business
+            needs. Our focus is on innovation and excellence, offering a range
+            of AI-driven services backed by our team of experts and a strong
+            community. Transform your business with InsightArcAI, where
+            intelligence meets innovation in the world of Artificial
+            Intelligence.
           </p>
           <button className="text-black mt-8 lg:mt-10 px-4 py-2 rounded-md text-gradient1 focus:outline-none focus:ring focus:border-blue-300 transition duration-300 ease-in-out transform hover:scale-105 text-center lg:text-left lg:inline-block">
             <a href="#">Get Started</a>
@@ -290,11 +293,11 @@ const HeroSection = () => {
               />
               <div className="pl-2">
                 <h1 className="text-xl font-semibold ml-2 dark:text-white text-black">
-                  Balance Transfer
+                  Chat Interface
                 </h1>
                 <h2 className="text-md ml-2 text-slate-400">
-                  A balance transfer credit card can save you a lot of money in
-                  interest charges
+                  Feel free to start a conversation and
+                  <br /> experience the power of AI in action!
                 </h2>
               </div>
             </div>
@@ -309,11 +312,11 @@ const HeroSection = () => {
               />
               <div className="pl-2">
                 <h1 className="text-xl font-semibold ml-2 dark:text-white text-black">
-                  Balance Transfer
+                  Course Section
                 </h1>
                 <h2 className="text-md ml-2 text-slate-400">
-                  A balance transfer credit card can save you a lot of money in
-                  interest charges
+                  A wide range of courses we offer
+                  <br /> according to the requirements of the user.
                 </h2>
               </div>
             </div>
@@ -328,11 +331,11 @@ const HeroSection = () => {
               />
               <div className="pl-2">
                 <h1 className="text-xl font-semibold ml-2 dark:text-white text-black">
-                  Balance Transfer
+                  Privacy policy
                 </h1>
                 <h2 className="text-md ml-2 text-slate-400">
-                  A balance transfer credit card can save you a lot of money in
-                  interest charges
+                  We use JSON Web Tokens (JWTs) and session
+                  <br /> management for secure authentication and user sessions.
                 </h2>
               </div>
             </div>
@@ -582,7 +585,7 @@ const HeroSection = () => {
                 career growth and success.
               </p>
               <button className="bg-teal-500 hover:shadow-teal-400 shadow-lg text-white font-bold py-3 px-6 rounded-[5px] block mx-auto mt-6 font-Josefin">
-                Apply & Start for Free
+                <a href="/feedback">Apply & Start for Free</a>
               </button>
             </div>
           </div>
